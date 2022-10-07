@@ -101,8 +101,8 @@ h1, p, h2, h3, button, span{
   
  button {
   margin-top: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 10px;
   color:black;
 }
