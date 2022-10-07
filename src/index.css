@@ -98,14 +98,12 @@ h1, p, h2, h3, button, span{
   align-self: center;
   width:30px;
 }
- a, button{
-  color:#000000;
- }
   
  button {
   margin-top: 5px;
   margin-left: 0px;
   margin-button: 10px;
+  color:black;
 }
   
 }
