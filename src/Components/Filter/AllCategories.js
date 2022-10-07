@@ -1,7 +1,7 @@
 import Filter from "./Filter";
 
 const AllCategories = () =>{
-    return( <div>
+    return( <div class="column">
         
         <h1>What kind of food do you like?</h1>
         

@@ -10,7 +10,7 @@ const Dish = ({dish}) =>{
 return(
     <div >
         <h2>{dish.name}</h2>
-        <img src={`${dish.img}.jpg`} width="500px"alt="food"/>
+        <img className="foto" src={`${dish.img}.jpg`} alt="food"/>
         <p>{dish.name}</p>
         <p>$ {dish.price}</p>
          <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>

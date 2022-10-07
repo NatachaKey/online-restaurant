@@ -76,3 +76,26 @@ button {
   margin-left: 10px;
 
 }
+.foto{
+  width: 500px;
+}
+
+@media all and (max-width:500px){
+  
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foto{
+  width: 200px;
+  border-radius: 10%;
+}
+h1, p, h2, h3, button, span{
+  font-size:10px;
+}
+.cartIcon {
+  align-self: center;
+  width:30px;
+}
+}
