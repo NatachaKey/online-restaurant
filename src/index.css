@@ -98,4 +98,7 @@ h1, p, h2, h3, button, span{
   align-self: center;
   width:30px;
 }
+  a{
+  color:#000000;
+  }
 }
