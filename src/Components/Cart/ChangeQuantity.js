@@ -9,7 +9,7 @@ const ChangeQuantity = ({quantity, setQuantity})=>{
     const removeQuantity = ()=>{
         
         const newQuantity = quantity -1;
-        if (newQuantity<0) return false;
+        if (newQuantity<0) return ;
         setQuantity(newQuantity);
     }
 
