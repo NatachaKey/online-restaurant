@@ -78,6 +78,7 @@ button {
 }
 .foto{
   width: 500px;
+  border-radius: 10%;
 }
 
 @media all and (max-width:500px){
