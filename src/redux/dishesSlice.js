@@ -15,5 +15,3 @@ export const dishesSlice= createSlice({
 export const getSelectedCategory = state => state.dishes.selectedCategory;
 export const {filterCategory}  =dishesSlice.actions;
 export default dishesSlice.reducer;
-
-//MY POLUCHAEM DOSTUP K PERVONACHALNOMY SOSTOYANIU- ITALIAN, SOHRANYAEM EGO V GETSELECTEDCATEGORY
