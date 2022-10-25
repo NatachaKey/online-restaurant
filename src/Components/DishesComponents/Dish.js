@@ -13,7 +13,7 @@ return(
         <img className="foto" src={`${dish.img}.jpg`} alt="food"/>
         <p>{dish.name}</p>
         <p>$ {dish.price}</p>
-         <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
+         <ChangeQuantity quantity={ quantity } setQuantity={ setQuantity }/>
         <button onClick = { () => {dispatch(addItemToCart({dish, quantity}));
     }}>Add to cart</button>   
         
