@@ -5,7 +5,7 @@ import AllCategories from './Components/Filter/AllCategories';
 
 function App() {
   return (
-    <div className="App">
+   <div className="App">
 
       <div className='block'>
         <AllCategories/> 
@@ -16,7 +16,7 @@ function App() {
       <Dishes/>
     </div>
 
-    </div>
+  </div>
   );
 }
 
