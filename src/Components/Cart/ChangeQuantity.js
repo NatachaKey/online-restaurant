@@ -1,4 +1,4 @@
-const ChangeQuantity = ({quantity, setQuantity})=>{
+const ChangeQuantity = ({ quantity, setQuantity })=>{
 
     const addQuantity = ()=> {
         const newQuantity = quantity +1;
@@ -7,7 +7,7 @@ const ChangeQuantity = ({quantity, setQuantity})=>{
 
     const removeQuantity = ()=> {        
         const newQuantity = quantity -1;
-        if (newQuantity<0) return ;
+        if (newQuantity < 0) return ;
         setQuantity(newQuantity);
     }
 
