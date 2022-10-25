@@ -7,7 +7,6 @@ import { getSelectedCategory } from "../../redux/dishesSlice";
 const Dishes = () =>{
 
     const selectedCategory = useSelector(getSelectedCategory);
-    //poluchaem dostup k kategorii kotoraya vybrana
 
     return( <div >
     {dataDishes
