@@ -15,5 +15,3 @@ const AllCategories = () =>{
 
 export default AllCategories;
 
-// SOZDALI MASSIV IZ TIPOV BLUD, POLUCHILI  DOSTUP K MAGDOMY EGO ELEMENTY- EGO CATEGORII, 
-//o OTRAjaem KOMPONENT FILTER, VSE  vse CATEGORII
