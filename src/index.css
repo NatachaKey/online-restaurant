@@ -25,7 +25,6 @@ body {
   width: 70px;
 }
 
-
 .block {
   background-color: rgb(248, 244, 244);
   padding: 20px;
@@ -43,7 +42,6 @@ background-color: green;
 
 .categoryButton:hover {
   background-color: #fdeb6b;
-
 }
 
 .icon{
@@ -53,7 +51,6 @@ background-color: green;
 p, h1, h2, button {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-
 }
 
 h1{
@@ -72,13 +69,13 @@ button {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .foto{
   width: 500px;
   border-radius: 10%;
 }
 
 @media all and (max-width:500px){
-  
 .column{
   display: flex;
   flex-direction: column;
