@@ -27,9 +27,9 @@ const dataDishes = [
   {
     id: 4,
     price: 40,
-      img: 'baked-salmon',
-      name: 'Baked Salmon',
-      category: 'SEAFOOD'
+    img: 'baked-salmon',
+    name: 'Baked Salmon',
+    category: 'SEAFOOD'
   },
   
   {
